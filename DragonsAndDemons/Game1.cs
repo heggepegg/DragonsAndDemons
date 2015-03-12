@@ -32,6 +32,7 @@ namespace DragonsAndDemons
         GameStateManager stateManager;
  
         public TitleScreen TitleScreen;
+        public StartMenuScreen StartMenuScreen;
  
         #endregion
  
@@ -42,85 +43,71 @@ namespace DragonsAndDemons
         const int screenHeight = 768;
  
         public readonly Rectangle ScreenRectangle;
+
+
+        public GamePlayScreen GamePlayScreen;
  
-        #endregion
- 
-        public Game1()
- 
-        {
-     
+        public Game1() 
+        {     
             graphics = new GraphicsDeviceManager(this);
      
-            graphics.PreferredBackBufferWidth = screenWidth;
-    
+            graphics.PreferredBackBufferWidth = screenWidth;    
             graphics.PreferredBackBufferHeight = screenHeight;
     
-            ScreenRectangle = new Rectangle(
-   
-                0,
-   
-                0,
- 
-                screenWidth,
-   
+            ScreenRectangle = new Rectangle(   
+                0,   
+                0, 
+                screenWidth,   
                 screenHeight);
  
             Content.RootDirectory = "Content";
   
             Components.Add(new InputHandler(this));
    
-            stateManager = new GameStateManager(this);
-   
+            stateManager = new GameStateManager(this);   
             Components.Add(stateManager);
    
             TitleScreen = new TitleScreen(this, stateManager);
-   
-            stateManager.ChangeState(TitleScreen);
- 
+            StartMenuScreen = new GameScreens.StartMenuScreen(this, stateManager);
+            GamePlayScreen = new GamePlayScreen(this, stateManager);
+
+            stateManager.ChangeState(TitleScreen); 
         }
+
+        #endregion
  
         protected override void Initialize()
  
-        {
-    
-            base.Initialize();
- 
+        {    
+            base.Initialize(); 
         }
 
         protected override void LoadContent()
  
-        {
-     
-            SpriteBatch = new SpriteBatch(GraphicsDevice);
- 
+        {     
+            SpriteBatch = new SpriteBatch(GraphicsDevice); 
         }
  
         protected override void UnloadContent()
 
-        {
- 
+        { 
         }
  
         protected override void Update(GameTime gameTime)
  
-        {
-     
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
-         
+        {     
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed)         
                 this.Exit();
     
-            base.Update(gameTime);
- 
+            base.Update(gameTime); 
         }
  
         protected override void Draw(GameTime gameTime)
  
-        {
-    
+        {    
             GraphicsDevice.Clear(Color.CornflowerBlue);
     
-            base.Draw(gameTime);
- 
+            base.Draw(gameTime); 
         }
  
     }

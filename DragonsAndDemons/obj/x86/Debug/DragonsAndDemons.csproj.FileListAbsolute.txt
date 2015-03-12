@@ -1,4 +1,3 @@
-c:\users\anders hydén\documents\visual studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\bin\x86\Debug\Content\Backgrounds\dwarfbrawl.xnb
 c:\users\anders hydén\documents\visual studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\bin\x86\Debug\DragonsAndDemons.exe
 c:\users\anders hydén\documents\visual studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\bin\x86\Debug\DragonsAndDemons.pdb
 c:\users\anders hydén\documents\visual studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\bin\x86\Debug\RpgLibrary.dll
@@ -9,3 +8,4 @@ c:\users\anders hydén\documents\visual studio 2013\Projects\DragonsAndDemons\Dr
 c:\users\anders hydén\documents\visual studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 c:\users\anders hydén\documents\visual studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\obj\x86\Debug\DragonsAndDemons.exe
 c:\users\anders hydén\documents\visual studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\obj\x86\Debug\DragonsAndDemons.pdb
+C:\Users\Anders Hydén\Documents\Visual Studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\bin\x86\Debug\Content\Backgrounds\titlescreen.xnb

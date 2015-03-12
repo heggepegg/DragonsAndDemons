@@ -2,13 +2,40 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
-      <Source>Backgrounds\dwarfbrawl.png</Source>
-      <Name>Backgrounds\dwarfbrawl</Name>
+      <Source>Backgrounds\titlescreen.png</Source>
+      <Name>Backgrounds\titlescreen</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>c:\users\anders hydén\documents\visual studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\bin\x86\Debug\Content\Backgrounds\dwarfbrawl.xnb</Output>
-      <Time>2015-03-04T14:03:33.0880999+01:00</Time>
+      <Output>C:\Users\Anders Hydén\Documents\Visual Studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\bin\x86\Debug\Content\Backgrounds\titlescreen.xnb</Output>
+      <Time>2015-03-05T09:08:26.8967582+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GUI\leftarrowUp.png</Source>
+      <Name>GUI\leftarrowUp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Anders Hydén\Documents\Visual Studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\bin\x86\Debug\Content\GUI\leftarrowUp.xnb</Output>
+      <Time>2015-03-12T14:03:53.2993148+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GUI\rightarrowUp.png</Source>
+      <Name>GUI\rightarrowUp</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Anders Hydén\Documents\Visual Studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\bin\x86\Debug\Content\GUI\rightarrowUp.xnb</Output>
+      <Time>2015-03-12T14:03:53.2993148+01:00</Time>
+    </Item>
+    <Item>
+      <Source>GUI\StopBar.png</Source>
+      <Name>GUI\StopBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Anders Hydén\Documents\Visual Studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\bin\x86\Debug\Content\GUI\StopBar.xnb</Output>
+      <Time>2015-03-12T14:03:53.3043148+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -17,10 +44,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>c:\users\anders hydén\documents\visual studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemonsContent\</RootDirectory>
-      <LoggerRootDirectory>c:\users\anders hydén\documents\visual studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\</LoggerRootDirectory>
-      <IntermediateDirectory>c:\users\anders hydén\documents\visual studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>c:\users\anders hydén\documents\visual studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Anders Hydén\Documents\Visual Studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemonsContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Anders Hydén\Documents\Visual Studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Anders Hydén\Documents\Visual Studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Anders Hydén\Documents\Visual Studio 2013\Projects\DragonsAndDemons\DragonsAndDemons\DragonsAndDemons\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

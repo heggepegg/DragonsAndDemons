@@ -1,1 +1,4 @@
-Content\Backgrounds\dwarfbrawl.xnb
+Content\Backgrounds\titlescreen.xnb
+Content\GUI\leftarrowUp.xnb
+Content\GUI\rightarrowUp.xnb
+Content\GUI\StopBar.xnb
